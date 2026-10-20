@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="Aao Sai Dry Cleaners, Dhakoli, Zirakpur. Dry cleaning, steam press, free pickup and drop on orders above Rs 500.">
+<meta name="description" content="Aao Sai Dry Cleaners, Dhakoli, Zirakpur. Dry cleaning, steam press, free pickup and drop on orders above Rs 500. Open daily, 8 am to 10 pm.">
 <title>Aao Sai Dry Cleaners</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -107,6 +107,12 @@ footer{padding-top:26px;color:var(--muted);font-size:.92rem}
   font-family:var(--display);font-weight:700;padding:10px 16px;border-radius:3px;font-size:1rem
 }
 .pickup svg{width:26px;height:26px;flex:none}
+.hours{font-family:var(--display);font-weight:700;font-size:1.05rem}
+.photos{padding-block:28px}
+.strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.strip figure{margin:0;aspect-ratio:4/3;overflow:hidden;background:var(--line);max-width:100%}
+.strip img{width:100%;height:100%;object-fit:cover;display:block}
+.credit{color:var(--muted);font-size:.85rem;margin-top:8px}
 
 .tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
 .tab{
@@ -169,6 +175,7 @@ body{margin:0}
       <h1>Aao Sai Dry Cleaners</h1>
       <p class="lede">Dry cleaning, steam press and garment care in Zirakpur, with free pickup and drop on orders above ₹500.</p>
       <span class="pickup"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 32V14h24v18"/><path d="M28 20h9l7 8v4H28"/><circle cx="14" cy="34" r="4"/><circle cx="36" cy="34" r="4"/></svg>Free pickup and drop on orders above ₹500</span>
+      <p class="hours">Open daily, 8 am to 10 pm</p>
       <div class="numline">
         <span class="num" id="phone">+91 98720 01129</span>
         <button class="copy" id="copyBtn" type="button">Copy number</button>
@@ -180,6 +187,8 @@ body{margin:0}
       </div>
     </div>
   </header>
+
+  <section class="photos" aria-label="Photos"><div class="strip"><figure><img src="https://images.unsplash.com/photo-1549037173-e3b717902c57?w=800&q=70&auto=format&fit=crop" alt="Clean suit jackets hanging on a rack" loading="lazy" onerror="this.parentNode.hidden=true"></figure><figure><img src="https://images.unsplash.com/photo-1696546761220-6c418dfefb8d?w=800&q=70&auto=format&fit=crop" alt="A shirt being ironed" loading="lazy" onerror="this.parentNode.hidden=true"></figure><figure><img src="https://images.unsplash.com/photo-1489274495757-95c7c837b101?w=800&q=70&auto=format&fit=crop" alt="A steam iron on an ironing board" loading="lazy" onerror="this.parentNode.hidden=true"></figure></div><p class="credit">Photos from Unsplash</p></section>
 
   <section id="services">
     <div class="sec-head">
@@ -240,6 +249,7 @@ body{margin:0}
           Dhakoli, Zirakpur<br>
           Punjab 140603
         </address>
+        <p class="hours">Open daily, 8 am to 10 pm</p>
         <div class="care" aria-hidden="true">
           <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"><path d="M8 14h32l-4 24H12z"/><path d="M14 22h20"/></svg>
           <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round"><path d="M24 8 42 40H6z"/></svg>
@@ -255,7 +265,7 @@ body{margin:0}
     </div>
   </section>
 
-  <footer>Aao Sai Dry Cleaners, Dhakoli, Zirakpur.</footer>
+  <footer>Aao Sai Dry Cleaners, Dhakoli, Zirakpur. Open daily, 8 am to 10 pm.</footer>
 </div>
 
 
